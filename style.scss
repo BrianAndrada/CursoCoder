@@ -976,8 +976,62 @@ select.form-control[multiple] {
         padding-left: 20px;
     }
 
+    .text-al p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .cards-service {
+        padding-bottom: 10%;
+        .card-title {
+            text-transform: uppercase;
+        }
+        .card-img-top {
+            width: 100px;
+        }
+        .card {
+            text-align: center;
+            justify-content: center;
+            display: block;
+            padding: 10px;
+        }
+    }
+}
+
+
+.text-rig {
+    .text h1 {
+        color: white;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .text-al {
+        padding: 5%;
+        padding-bottom: 2%;
+    }
+    .text-al h3 {
+        color: black;
+        font-weight: 700;
+    }
     .text-r {
-        padding: 20px !important;
-        word-break: break-all;
+        color: black;
+        font-weight: 500;
+    }
+}
+.cards-service {
+    padding: 50px;
+    padding-bottom: 10%;
+    .card-title {
+        text-transform: uppercase;
+    }
+    .card-img-top {
+        width: 100px;
+    }
+
+    .card {
+        text-align: center;
+        justify-content: center;
+        display: block;
+        height: 250px;
     }
 }
