@@ -179,9 +179,13 @@ img.imge-r {
 
 .text-al {
   text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .text-al p {
+  margin-left: 2%;
+  margin-right: 2%;
   padding: 1%;
   font-size: 18px;
 }
@@ -192,9 +196,11 @@ img.imge-r {
   height: 100vh;
   justify-content: center;
   position: relative;
+  display: inline-block;
 }
 
 #logo-section img {
+  display: inline-block;
   max-width: 300px;
 }
 

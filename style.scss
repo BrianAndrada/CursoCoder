@@ -167,9 +167,13 @@ img.imge-r {
 
 .text-al {
     text-align: justify;
+    margin-left: 2%;
+    margin-right:2%;
 }
 
 .text-al p {
+    margin-left: 2%;
+    margin-right:2%;
     padding: 1%;
     font-size: 18px;
 }
@@ -180,8 +184,10 @@ img.imge-r {
     height: 100vh;
     justify-content: center;
     position: relative;
+    display: inline-block;
 }
 #logo-section img {
+    display: inline-block;
     max-width: 300px;
 }
 #logo-section .subtitle {
@@ -239,6 +245,7 @@ img.imge-r {
     display: flex;
     justify-content: center;
 }
+
 
 /* Footer */
 .footer {
@@ -477,30 +484,6 @@ label.control-label {
     margin: 16px 0 0 0;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .help-block {
     margin-top: 0;
@@ -960,6 +943,7 @@ select.form-control[multiple] {
 }
 
 @media screen and (max-width: 570px) {
+
     #section-inicio {
         height: 100vh;
     }
@@ -996,7 +980,10 @@ select.form-control[multiple] {
             padding: 10px;
         }
     }
+    
+    
 }
+
 
 
 .text-rig {

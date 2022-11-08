@@ -28,6 +28,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
@@ -43,16 +44,16 @@
 
     <!-- SEO -->
     <!-- keywords -->
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Brian Andrada, diseño gráfico, diseño multimedia" />
     <!--Nombre del Autor -->
-    <meta name="author" content="" />
+    <meta name="author" content="Brian Andrada" />
     <!-- Copyright -->
-    <meta name="copyright" content="" />
+    <meta name="copyright" content="Brian Andrada" />
     <!-- Open Graph - URL compartida en una red social -->
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
+    <meta property="og:title" content="Brian Andrada - Diseño Gráfico" />
+    <meta property="og:description" content="Diseñador gráfico Freelance" />
+    <meta property="og:image" content="./img/white-logo.png" />
+    <meta property="og:url" content="https://brianandrada.github.io/CursoCoder/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_AR" />
 
@@ -82,6 +83,9 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="sobremi.html">Sobre mí</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
@@ -102,178 +106,170 @@
                     <div class="black-title">
                         <h1 class="content-padding">Portfolio</h1>
                     </div>
-                    <div class="gallery_product col-sm-4 col-xs-6 ">
-                        <a class="fancybox" rel="ligthbox" href="img/galleria/gallery-1.png">
-                            <img class="img-responsive" alt="" src="img/galleria/gallery-1.png" />
-                            <div class='img-info'>
-                                <h4>Imagen 1</h4>
-                                <p>Trabajo realizado para Julio Cortázar.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="gallery_product col-sm-4 col-xs-6">
-                        <a class="fancybox" rel="ligthbox" href="img/galleria/gallery-2.png">
-                            <img class="img-responsive" alt="" src="img/galleria/gallery-2.png" />
-                            <div class='img-info'>
-                                <h4>Imagen 2</h4>
-                                <p>Trabajo realizado para Julio Cortázar.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="gallery_product col-sm-4 col-xs-6 ">
-                         <a class="fancybox" rel="ligthbox" href="img/galleria/gallery-3.png">
-                            <img class="img-responsive2" alt="" src="img/galleria/gallery-3.png" />
-                            <div class='img-info'>
-                                <h4>Imagen 3</h4>
-                                <p>Trabajo realizado para Julio Cortázar.</p>
-                            </div>
-                        </a>
-                    </div>
-        
-                    <div class="gallery_product col-sm-3 col-xs-6 pl-1 pt-2">
-                        <a class="fancybox pl-1" rel="ligthbox" href="img/galleria/gallery-4.jpeg">
-                            <img class="img-responsive2" alt="" src="img/galleria/gallery-4.jpeg" />
-                            <div class='img-info'>
-                                <h4>Mockups Carta de presentación</h4>
-                                <p>Trabajo realizado para Entre Valles</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-                        <a class="fancybox" rel="ligthbox" href="img/galleria/gallery-5.jpeg">
-                            <img class="img-responsive" alt="" src="img/galleria/gallery-5.jpeg" />
-                            <div class='img-info'>
-                                <h4>Mockups Tazas</h4>
-                                <p>Trabajo realizado para Entre Valles</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-                        <a class="fancybox" rel="ligthbox" href="img/galleria/gallery-6.jpeg">
-                            <img class="img-responsive" alt="" src="img/galleria/gallery-6.jpeg" />
-                            <div class='img-info'>
-                                <h4>Mockups Toallas</h4>
-                                <p>Trabajo realizado para Entre Valles</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-                        <a class="fancybox" rel="ligthbox" href="img/galleria/gallery-7.jpeg">
-                            <img class="img-responsive" alt="" src="img/galleria/gallery-7.jpeg" />
-                            <div class='img-info'>
-                                <h4>Mockups Carta de presentación</h4>
-                                <p>Trabajo realizado para Entre Valles</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="gallery_product col-sm-3 col-xs-6 pl-1 pt-2">
-                      <a class="fancybox" rel="ligthbox" href="img/galleria/entre valles insta s_Mesa de trabajo 1.png">
-                          <img class="img-responsive" alt="" src="img/galleria/entre valles insta s_Mesa de trabajo 1.png" />
+                    <div class="container-masonry container-responsive">
+                      <figure>
+                        <img src="img/galleria/gallery-1.png" alt="Todos los fuegos, el fuego - Julio Cortazar" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/gallery-1.png">
+                          <div class='img-info'>
+                          <h4>Imagen 1</h4>
+                          <p>Trabajo realizado para Editorial Planeta.</p>
+                          </div></a>
+                        </figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/gallery-2.png" alt="Casa Tomada - Julio Cortazar" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/gallery-2.png">
+                          <div class='img-info'>
+                              <h4>Imagen 2</h4>
+                              <p>Trabajo realizado para Editorial Planeta.</p>
+                          </div></a>
+                        </figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/gallery-3.png" alt="Instrucciones para subir una escalera - Julio Cortazar" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/gallery-3.png">
+                          <div class='img-info'>
+                          <h4>Imagen 3</h4>
+                          <p>Trabajo realizado para Editorial Planeta.</p>
+                          </div></a>
+                        </figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/wl s.jpg" alt="Presentación" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/wl s.jpg">
+          
+                          <div class='img-info'>
+                              <h4>Presentación</h4>
+                              <p>Trabajo realizado para Brow Studio</p>
+                          </div>
+                      </a>
+                        </figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/gallery-4.jpeg" alt="Mockups Carta de presentación" />
+                        <figcaption><a class="fancybox pl-1" rel="ligthbox" href="img/galleria/gallery-4.jpeg">
                           <div class='img-info'>
                               <h4>Mockups Carta de presentación</h4>
                               <p>Trabajo realizado para Entre Valles</p>
                           </div>
-                      </a>
-                  </div>
-                  <div class="gallery_product col-sm-3 col-xs-6 pt-1">
-                    <a class="fancybox" rel="ligthbox" href="img/galleria/bicAN INSTA-03.png">
-                        <img class="img-responsive" alt="" src="img/galleria/bicAN INSTA-03.png" />
-                        <div class='img-info'>
-                          <h4>Mockups de presentación</h4>
-                          <p>Trabajo realizado para BiancaCoffe</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="gallery_product col-sm-3 col-xs-6 ">
-                  <a class="fancybox" rel="ligthbox" href="img/galleria//bicAN INSTA-04.png">
-                      <img class="img-responsive" alt="" src="img/galleria/bicAN INSTA-04.png" />
-                      <div class='img-info'>
-                          <h4>Mockups de presentación</h4>
-                          <p>Trabajo realizado para BiancaCoffe</p>
-                      </div>
-                  </a>
-              </div>
-              <div class="gallery_product col-sm-3 col-xs-6 ">
-                <a class="fancybox" rel="ligthbox" href="img/galleria/safari.jpg">
-                    <img class="img-responsive" alt="" src="img/galleria/safari.jpg" />
-                    <div class='img-info'>
-                        <h4>Mockups</h4>
-                        <p>Trabajo realizado para Safari</p>
+                      </a></figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/gallery-5.jpeg" alt="Mockups Tazas" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/gallery-5.jpeg">
+                             <div class='img-info'>
+                              <h4>Mockups Tazas</h4>
+                              <p>Trabajo realizado para Entre Valles</p>
+                          </div>
+                      </a></figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/gallery-6.jpeg" alt="Mockups Toallas" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/gallery-6.jpeg">
+                          <div class='img-info'>
+                              <h4>Mockups Toallas</h4>
+                              <p>Trabajo realizado para Entre Valles</p>
+                          </div>
+                      </a></figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/gallery-7.jpeg" alt="Mockups Carta de presentación" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/gallery-7.jpeg">
+                          <div class='img-info'>
+                              <h4>Mockups de presentación</h4>
+                              <p>Trabajo realizado para Entre Valles</p>
+                          </div>
+                      </a></figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/bicAN INSTA-03.png" alt="Mockups de presentación" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/bicAN INSTA-03.png">
+                          <div class='img-info'>
+                              <h4>Aplicación de logotipos</h4>
+                              <p>Trabajo realizado para BiancaCoffe</p>
+                          </div>
+                      </a></figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/celiar 1.jpg" alt="" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/celiar 1.jpg">
+                          <div class='img-info'>
+                              <h4>Mockups Carta de presentación</h4>
+                              <p>Trabajo realizado para Celiar</p>
+                          </div>
+                      </a></figcaption>
+                      </figure> 
+                      <figure>
+                        <img src="img/galleria/entre valles insta s_Mesa de trabajo 1.png" alt="Mockups Carta de presentación" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/entre valles insta s_Mesa de trabajo 1.png">
+                          <div class='img-info'>
+                              <h4>Mockups de presentación</h4>
+                              <p>Trabajo realizado para Entre Valles</p>
+                          </div>
+                      </a></figcaption>
+                      </figure>
+                                   
+                      <figure>
+                        <img src="img/galleria/bicAN INSTA-04.png" alt="Mockups de presentación" />
+                        <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria//bicAN INSTA-04.png">
+                          <div class='img-info'>
+                              <h4>Mockups de presentación</h4>
+                              <p>Trabajo realizado para BiancaCoffe</p>
+                          </div>
+                      </a></figcaption>
+                      </figure>
+                      
+                      <figure>
+                        <img src="img/galleria/safari.jpg" alt="" />
+                          <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/safari.jpg">
+                    
+                            <div class='img-info'>
+                                <h4>Mockups</h4>
+                                <p>Trabajo realizado para Safari</p>
+                            </div>
+                        </a>
+                      </figure>
+                      
+                      <figure>
+                        <img src="img/galleria/celibre1.jpg" alt="" />
+                          <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/celibre1.jpg">
+                
+                            <div class='img-info'>
+                              <h4>Mockups</h4>
+                              <p>Trabajo realizado para Calibre</p>
+                            </div>
+                        </a></figcaption>
+                      </figure>
+                      <figure>
+                        <img src="img/galleria/celibre2.jpg" alt="" />
+                          <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/celibre2.jpg">
+              
+                            <div class='img-info'>
+                                <h4>Mockups</h4>
+                                <p>Trabajo realizado para Calibre</p>
+                            </div>
+                        </a></figcaption>
+                      </figure>         
+                      <figure>
+                        <img src="img/galleria/make up.jpg" alt="" />
+                          <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/make up.jpg">
+            
+                            <div class='img-info'>
+                                <h4>Mockups</h4>
+                                <p>Trabajo realizado para VIO</p>
+                            </div>
+                        </a></figcaption>
+                        </figure>
+                      <figure>
+                        <img src="img/galleria/celiar 1.jpg" alt="" />
+                          <figcaption><a class="fancybox" rel="ligthbox" href="img/galleria/celiar 1.jpg">
+                             <div class='img-info'>
+                                <h4>Mockups Carta de presentación</h4>
+                                <p>Trabajo realizado para Celiar</p>
+                            </div>
+                        </a></figcaption>
+                        </figure>
                     </div>
-                </a>
-            </div>
-            <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-              <a class="fancybox" rel="ligthbox" href="img/galleria/celiar 1.jpg">
-                  <img class="img-responsive" alt="" src="img/galleria/celiar 1.jpg" />
-                  <div class='img-info'>
-                      <h4>Mockups Carta de presentación</h4>
-                      <p>Trabajo realizado para Celiar</p>
-                  </div>
-              </a>
-          </div>
-          <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-            <a class="fancybox" rel="ligthbox" href="img/galleria/celibre1.jpg">
-                <img class="img-responsive" alt="" src="img/galleria/celibre1.jpg" />
-                <div class='img-info'>
-                  <h4>Mockups</h4>
-                  <p>Trabajo realizado para Calibre</p>
-                </div>
-            </a>
-        </div>
-        <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-          <a class="fancybox" rel="ligthbox" href="img/galleria/celibre2.jpg">
-              <img class="img-responsive" alt="" src="img/galleria/celibre2.jpg" />
-              <div class='img-info'>
-                  <h4>Mockups</h4>
-                  <p>Trabajo realizado para Calibre</p>
-              </div>
-          </a>
-      </div>
-      <div class="gallery_product col-sm-3 col-xs-6 pt-1">
-        <a class="fancybox" rel="ligthbox" href="img/galleria/make up.jpg">
-            <img class="img-responsive" alt="" src="img/galleria/make up.jpg" />
-            <div class='img-info'>
-                <h4>Mockups</h4>
-                <p>Trabajo realizado para VIO</p>
-            </div>
-        </a>
-    </div>
-    <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-      <a class="fancybox" rel="ligthbox" href="img/galleria/wl s.jpg">
-          <img class="img-responsive" alt="" src="img/galleria/wl s.jpg" />
-          <div class='img-info'>
-              <h4>Presentación</h4>
-              <p>Trabajo realizado para Brow Studio</p>
-          </div>
-      </a>
-  </div>
-  <div class="gallery_product col-sm-3 col-xs-6 pt-2">
-    <a class="fancybox" rel="ligthbox" href="img/galleria/merson 4.jpg">
-        <img class="img-responsive" alt="" src="img/galleria/merson 4.jpg" />
-        <div class='img-info'>
-            <h4>Mockups Carta de presentación</h4>
-            <p>Trabajo realizado para merson</p>
-        </div>
-    </a>
-</div>
-<div class="gallery_product col-sm-3 col-xs-6 pt-2">
-  <a class="fancybox" rel="ligthbox" href="img/galleria/hija 1_Mesa de trabajo 1.png">
-      <img class="img-responsive" alt="" src="img/galleria/hija 1_Mesa de trabajo 1.png" />
-      <div class='img-info'>
-          <h4>Logo</h4>
-          <p>Trabajo realizado para BiancaCoffe</p>
-      </div>
-  </a>
-</div>
-<div class="gallery_product col-sm-3 col-xs-6 pt-2">
-  <a class="fancybox" rel="ligthbox" href="img/galleria/MUCK UP.png">
-      <img class="img-responsive" alt="" src="img/galleria/MUCK UP.png" />
-      <div class='img-info'>
-          <h4>Mockups</h4>
-          <p>Trabajo realizado para VIO EYE</p>
-      </div>
-  </a>
-</div>
                 </div>
             </div>
         </section>
@@ -302,5 +298,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
     <script src="./script.js"></script>
+  
   </body>
 </html>
