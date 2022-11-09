@@ -154,6 +154,21 @@ h4 {
     font-size: 40px;
 }
 
+img.imge-r-2{
+    object-fit: cover;
+    width: 100%;
+    max-height: 70vh;
+    max-width: 70vh;
+    min-width: 10vh;
+    padding-left: 2%;
+    object-fit:cover;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+
+
 img.imge-r {
     
     padding-left: 2%;
