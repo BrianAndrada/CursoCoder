@@ -183,7 +183,8 @@ img.imge-r {
 }
 
 .text-al p {
-  padding: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   font-size: 18px;
 }
 
@@ -750,17 +751,24 @@ fieldset[disabled] .form-group .form-control {
   height: auto;
 }
 
-.text-al .text {
-  background-color: black;
-}
 .text-al .text h1 {
-  color: white;
+  color: #000;
 }
 .text-al h3 {
-  color: white;
+  color: #000;
 }
 .text-al .text-r {
-  color: rgba(255, 255, 255, 0.733);
+  color: #000;
+}
+
+.text-al-sm .text h1 {
+  color: #ffffff;
+}
+.text-al-sm h3 {
+  color: #ffffff;
+}
+.text-al-sm .text-r-sm {
+  color: #ffffff;
 }
 
 .footer .btn-cssbuttons {
@@ -913,6 +921,7 @@ fieldset[disabled] .form-group .form-control {
   text-transform: uppercase;
 }
 .cards-service .card-img-top {
+  padding: 1%;
   width: 100px;
 }
 .cards-service .card {
