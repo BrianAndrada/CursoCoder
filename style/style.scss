@@ -171,8 +171,10 @@ img.imge-r {
 }
 
 .text-al p {
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 18px;
+
 }
 
 #logo-section {
@@ -814,16 +816,28 @@ select.form-control[multiple] {
 
 .text-al {
     .text {
-        background-color: black;
         h1 {
-            color: white;
+            color: #000;
         }
     }
     h3 {
-        color: white;
+        color: #000;
     }
     .text-r {
-        color: rgba(255, 255, 255, 0.733);
+        color: #000;
+    }
+}
+.text-al-sm {
+    .text {
+        h1 {
+            color: #ffffff;
+        }
+    }
+    h3 {
+        color: #ffffff;
+    }
+    .text-r-sm {
+        color: #ffffff;
     }
 }
 
@@ -1026,6 +1040,7 @@ select.form-control[multiple] {
         text-transform: uppercase;
     }
     .card-img-top {
+        padding: 1%;
         width: 100px;
     }
 
@@ -1126,3 +1141,4 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
